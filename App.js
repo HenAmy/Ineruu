@@ -22,7 +22,16 @@ export default function App() {
                 color: 'white'
               }
             }}/>
-            <Stack.Screen name="Signup" component={Signup}/>
+            <Stack.Screen name="Signup" component={Signup} options={{
+                headerTitle: "ineruu",
+                headerStyle: {
+                  backgroundColor: 'blue'
+                },
+                headerTitleStyle: {
+                  color: 'white'
+                },
+                headerTintColor: "white"
+              }}/>
         </Stack.Navigator>
     </NavigationContainer>
   );
