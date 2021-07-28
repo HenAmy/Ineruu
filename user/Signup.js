@@ -34,7 +34,6 @@ const Signup = () => {
             <TouchableOpacity style={styles.button}>
                 <Text style={{ fontSize: 17, marginLeft:5, color: 'white' }}>Sign Up</Text>
             </TouchableOpacity> 
-
         </Screen>
     )
 }
